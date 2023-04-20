@@ -4,7 +4,7 @@ const baseConfig = require('./webpack.base.js')
 
 module.exports = merge(baseConfig, {
   mode: 'development',
-  devtool: 'eval-cheap-module-source-map',
+  devtool: 'eval-source-map',
   devServer: {
     // port: 3000,
     compress: false,
